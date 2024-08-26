@@ -1,14 +1,18 @@
 .csurfer {
-    display: block;
-    padding: 0.5rem 1rem;
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
     color: #ffffff;
+    background-color: #333333;
     text-decoration: none;
-    transition: color 0.3s ease;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .csurfer:hover,
 .csurfer:focus {
-    color: #e63946;
+    color: #ffffff;
+    background-color: #e63946;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
