@@ -1,0 +1,65 @@
+.create-post-wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+h3 {
+    text-align: left;
+    color: #333333;
+    margin-bottom: 1.5rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+}
+
+.create-post-container {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e0e0e0;
+}
+
+.form-container {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.form-control {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn-confirm {
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.4s ease, transform 0.2s ease;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: #ffffff;
+    border: 1px solid #0056b3;
+}
+
+.btn-confirm:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.btn-confirm:active {
+    transform: translateY(0);
+}
