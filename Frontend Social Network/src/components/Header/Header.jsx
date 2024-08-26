@@ -24,7 +24,7 @@ export const Header = () => {
             navigate('/');
           }}
         >
-          <span className="red">SOCIAL</span>NETWORK
+          <span className="red">META</span>VERSO
         </a>
         <button
           className="navbar-toggler"
@@ -50,6 +50,9 @@ export const Header = () => {
             </li>
             <li className="nav-item">
               <CSurfer path="/allPosts" content="AllPosts" />
+            </li>
+            <li className="nav-item">
+              <CSurfer path="/searchPost" content="SearchPost" />
             </li>
             <li className="nav-item">
               <CSurfer path="/myPosts" content="MyPosts" />
