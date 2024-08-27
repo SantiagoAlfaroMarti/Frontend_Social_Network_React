@@ -83,3 +83,22 @@ export const updatePosts = async (id, data, token) => {
         throw error;
     }
 }
+export const putLikeById = async (id, token) => {
+    try {
+        const response = await fetch(`${URL}/like/${id}`, {
+            method: "PUT",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            }
+        });
+        const data = await response.json();
+        if (!data.success) {
+            throw new Error(data.message);
+        }
+        return data;
+    } catch (error) {
+        console.error("Error toggling like:", error);
+        throw error;
+    }
+}
