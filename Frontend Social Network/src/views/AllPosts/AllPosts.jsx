@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllPosts, putLikeById } from '../../services/postApiCalls';
 import { useAuth } from '../../contexts/AuthContext';
+import "./AllPosts.css";
 
 export const AllPosts = () => {
   const [posts, setPosts] = useState([]);
@@ -40,7 +41,7 @@ export const AllPosts = () => {
     try {
       const response = await putLikeById(postId, passport.token);
       if (response.success) {
-        setPosts(prevPosts => prevPosts.map(post =>
+        setPosts(prevPosts => prevPosts.map(post => 
           post._id === postId ? { ...post, like: response.data.like } : post
         ));
       } else {
@@ -56,23 +57,24 @@ export const AllPosts = () => {
   }
 
   return (
-    <>
+    <div className="posts-wrapper">
       <h1>All Posts</h1>
       {posts.length === 0 ? (
-        <p>No posts found...</p>
+        <p className="no-posts-message">No posts found...</p>
       ) : (
-        <div>
+        <div className="posts-container">
           {posts.map((post) => (
-            <div key={post._id}>
-              <div>{post.description}</div>
-              <button onClick={() => handleLike(post._id)}>
+            <div key={post._id} className="post-card">
+              <div className= "post-likes" >Posted by: {post.userId?.email || 'Unknown User'}</div>
+              <div className="description-posts">{post.description}</div>
+              <button onClick={() => handleLike(post._id)} className="btn-like">
                 Like
               </button>
-              <span>Likes: {post.like ? post.like.length : 0}</span>
+              <span className="post-likes">Likes: {post.like ? post.like.length : 0}</span>
             </div>
           ))}
         </div>
       )}
-    </>
-  )
+    </div>
+  );
 }
