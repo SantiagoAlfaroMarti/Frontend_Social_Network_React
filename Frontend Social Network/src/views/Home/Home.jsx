@@ -31,7 +31,7 @@ export const Home = () => {
             <img
               alt="Imagen 1"
               className="d-block carousel-image"
-              src=".../../../img/SocialNetwork1.jpg"
+              src=".../../../img/social network 1.jpg"
             />
             <div className="carousel-caption">
               <h5 className="animated bounceInRight" style={{ animationDelay: '1s' }}>
@@ -40,7 +40,7 @@ export const Home = () => {
                 className="animated bounceInLeft d-none d-md-block"
                 style={{ animationDelay: '2s' }}
               >
-                Tu mundo virtual comienza aquí.
+                Explore your digital space from now on.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ export const Home = () => {
             <img
               alt="Imagen 2"
               className="d-block carousel-image"
-              src=".../../../img/SocialNetwork2.jpg"
+              src=".../../../img/social network 2.jpg"
             />
             <div className="carousel-caption">
               <h5 className="animated bounceInRight" style={{ animationDelay: '1s' }}>
@@ -57,7 +57,7 @@ export const Home = () => {
                 className="animated bounceInLeft d-none d-md-block"
                 style={{ animationDelay: '2s' }}
               >
-                Transforma tu realidad con el metaverso.
+                Transform your experience and live a different reality.
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ export const Home = () => {
             <img
               alt="Imagen 3"
               className="d-block carousel-image"
-              src=".../../../img/SocialNetwork3.jpg"
+              src=".../../../img/social network 3.webp"
             />
             <div className="carousel-caption">
               <h5 className="animated bounceInRight" style={{ animationDelay: '1s' }}>
@@ -74,7 +74,7 @@ export const Home = () => {
                 className="animated bounceInLeft d-none d-md-block"
                 style={{ animationDelay: '2s' }}
               >
-                Donde la imaginación no tiene límites.
+                A place without frontiers.
               </p>
             </div>
           </div>
