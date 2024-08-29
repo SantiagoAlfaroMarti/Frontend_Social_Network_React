@@ -31,7 +31,7 @@ export const Home = () => {
             <img
               alt="Imagen 1"
               className="d-block carousel-image"
-              src=".../../../img/social network 1.jpg"
+              src=".../../../img/Social platform 1.jpg"
             />
             <div className="carousel-caption">
               <h5 className="animated bounceInRight" style={{ animationDelay: '1s' }}>
@@ -48,7 +48,7 @@ export const Home = () => {
             <img
               alt="Imagen 2"
               className="d-block carousel-image"
-              src=".../../../img/social network 2.jpg"
+              src=".../../../img/Social platform 2.jpg"
             />
             <div className="carousel-caption">
               <h5 className="animated bounceInRight" style={{ animationDelay: '1s' }}>
@@ -65,7 +65,7 @@ export const Home = () => {
             <img
               alt="Imagen 3"
               className="d-block carousel-image"
-              src=".../../../img/social network 3.webp"
+              src=".../../../img/Social platform 3.webp"
             />
             <div className="carousel-caption">
               <h5 className="animated bounceInRight" style={{ animationDelay: '1s' }}>
