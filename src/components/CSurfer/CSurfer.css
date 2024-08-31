@@ -13,6 +13,6 @@
 .csurfer:hover,
 .csurfer:focus {
     color: #ffffff;
-    background-color: #e63946;
+    background-color: rgb(132, 123, 123);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

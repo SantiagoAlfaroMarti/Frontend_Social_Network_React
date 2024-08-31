@@ -11,14 +11,14 @@
 .navbar-brand {
     font-size: 1.75rem;
     font-weight: 700;
-    color: #f0f0f0;
+    color: white;
     text-transform: none;
     transition: color 0.3s ease-in-out;
     cursor: pointer;
 }
 
 .navbar-brand:hover {
-    color: #ff6f61;
+    color: white;
 }
 
 .navbar-nav {
@@ -59,7 +59,7 @@
 .logout:hover,
 .logout:focus,
 .red {
-    color: #ff6f61;
+    color: white;
 }
 
 .logout {

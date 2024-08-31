@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import { CSurfer } from '../CSurfer/CSufer';
+import { CSurfer } from '../CSurfer/CSurfer';
 import './Header.css';
 
 export const Header = () => {
@@ -24,7 +24,7 @@ export const Header = () => {
             navigate('/');
           }}
         >
-          <span className="red">META</span>VERSO
+          <span className="white">Social Network</span>
         </a>
         <button
           className="navbar-toggler"
