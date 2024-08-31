@@ -51,7 +51,7 @@ export const deletePostById = async (token, id) => {
     }
 }
 
-export const getMyPosts = async (token) => {
+  export const getMyPosts = async (token) => {
     try {
         const response = await fetch(`${URL}/own`, {
             method: "GET",
@@ -83,6 +83,7 @@ export const updatePosts = async (id, data, token) => {
         throw error;
     }
 }
+
 export const putLikeById = async (id, token) => {
     try {
         const response = await fetch(`${URL}/like/${id}`, {
@@ -99,6 +100,23 @@ export const putLikeById = async (id, token) => {
         return data;
     } catch (error) {
         console.error("Error toggling like:", error);
+        throw error;
+    }
+};
+
+export const getPostById = async (id, token) => {
+    try {
+        const response = await fetch(`${URL}/${id}`, {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${token}`
+            }
+        });
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Error getting posts:", error);
         throw error;
     }
 }
