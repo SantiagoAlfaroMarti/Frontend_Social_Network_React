@@ -88,7 +88,7 @@ The goal of this project is to design and develop a front-end interface for the 
 ## Views :camera:
 
 ### Home :japanese_castle:
-
+<img width="250" alt="" src="img/Home.jpg.png">
 
 ### Login and Register :unlock:
 
