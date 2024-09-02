@@ -88,25 +88,26 @@ The goal of this project is to design and develop a front-end interface for the 
 ## Views :camera:
 
 ### Home :japanese_castle:
-<img width="250" alt="" src="img/Home.jpg.png">
+<img width="800" alt="" src="img/Home.jpg.png">
 
 ### Login and Register :unlock:
-
+<img width="800" alt="" src="img/Login and Register.jpg">
 
 ### Profile :dizzy:
-
+<img width="800" alt="" src="img/Profile.jpg">
 
 ### Admin Dashboard :stars:
-
+<img width="800" alt="" src="img/AdminUsersDashboard.jpg">
+<img width="800" alt="" src="img/AdminPostsDashboard.jpg">
 
 ### Create Posts :performing_arts:
-
+<img width="800" alt="" src="img/CreatePost.jpg">
 
 ### My Posts :ticket:
-
+<img width="800" alt="" src="img/MyPosts.jpg">
 
 ### All Posts :envelope:
-
+<img width="800" alt="" src="img/AllPost.jpg">
 
 ## Future functionalities :crystal_ball:
 - Option to follow.
