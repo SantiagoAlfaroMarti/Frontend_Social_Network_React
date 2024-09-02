@@ -41,9 +41,11 @@ export const AllPosts = () => {
   const handleLike = async (postId) => {
     try {
       const response = await putLikeById(postId, passport.token);
+      console.log (response)
       if (response.success) {
+        console.log (posts)
         setPosts(prevPosts => prevPosts.map(post => 
-          post._id === postId ? { ...post, like: response.data.like } : post
+          post._id === postId ? { ...post, like: !post.like } : post
         ));
       } else {
         console.error("Error liking post:", response.message);

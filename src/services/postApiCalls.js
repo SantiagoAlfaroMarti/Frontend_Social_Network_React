@@ -1,4 +1,4 @@
-const URL = 'http://localhost:5000/api/posts';
+const URL = 'http://localhost:4000/api/posts';
 
 //POSTS
 
@@ -69,7 +69,7 @@ export const deletePostById = async (token, id) => {
 
 export const updatePosts = async (id, data, token) => {
     try {
-        const response = await fetch(`${URL}/own/${id}`, {
+        const response = await fetch(`${URL}/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
