@@ -38,7 +38,7 @@ export const Home = () => {
               </h5>
               <p
                 className="animated bounceInLeft d-none d-md-block"
-                style={{ animationDelay: '2s' }}
+                style={{ animationDelay: '1s' }}
               >
                 Explore your digital space from now on.
               </p>
@@ -55,7 +55,7 @@ export const Home = () => {
               </h5>
               <p
                 className="animated bounceInLeft d-none d-md-block"
-                style={{ animationDelay: '2s' }}
+                style={{ animationDelay: '1s' }}
               >
                 Transform your experience and live a different reality.
               </p>
@@ -72,7 +72,7 @@ export const Home = () => {
               </h5>
               <p
                 className="animated bounceInLeft d-none d-md-block"
-                style={{ animationDelay: '2s' }}
+                style={{ animationDelay: '1s' }}
               >
                 A place without frontiers.
               </p>
