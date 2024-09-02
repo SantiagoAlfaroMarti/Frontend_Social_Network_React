@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 5em;
+  padding: 2em;
+  transition: transform 250ms ease-in-out, filter 250ms ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2) contrast(1.2);
+}
+.logo.react:hover {
+  filter: brightness(1.2) contrast(1.2) drop-shadow(0 0 1.5em #61dafb);
+}
+
+@keyframes logo-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-bounce infinite 3s ease-in-out;
+  }
+}
+
+.card {
+  padding: 2.5em;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: #666;
+  font-style: italic;
+}
